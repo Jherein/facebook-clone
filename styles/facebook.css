@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(240, 242, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 80px 0 80px 0;
+}
+
+.wrapper {
+    display: flex;
+    padding: 20px 0 20px 0;
+    margin: 0 180px 0 180px;
+}
+
+.logo {
+    width: 548px;
+    padding-top: 112px;
+    padding-bottom: 16px;
+}
+
+.fb-image {
+    margin: -28px;
+}
+
+.connect {
+   font-size: 28px;
+   color: rgb(28, 30, 33);
+   width: 500px;
+   font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+   font-weight: 400;
+   padding-bottom: 20px;
+   line-height: 32px;
+}
+
+.left-container {
+    width: 580px;
+    height: 260px;
+    padding-right: 32px;
+}
+
+.right-column {
+    width: 396px;
+    height: 490px;
+}
+
+form {
+    background-color: white;
+    width: 395px;
+    margin: 30px 0;
+    border-radius: 10px;
+    padding: 18px 15px 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+}
+
+input {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type=text], input[type=password] {
+    padding: 14px 16px;
+    width: 100%;
+    height: 52px;
+    border: 1px solid lightgray;
+    outline: none;
+    font-size: 17px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    box-shadow: 1px 0px 5px rgb(4, 187, 248);
+}
+
+input[type=submit] {
+    color: white;
+    background-color: rgb(8, 102, 255);
+    border: none;
+    width: 100%;
+    padding: 12px 0 12px 0;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background-color 1s;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(24, 104, 233);
+}
+
+.forgot-password {
+    color: blue;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+.hr {
+    width: 100%;
+    margin: 20px 0 10px 0;
+    border: 1px solid rgb(224, 225, 226);
+}
+
+form .btn {
+    color: white;
+    background-color: rgb(66, 183, 42);
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-left: 85px;
+    margin-top: 15px;
+    transition: background-color 0.15s;
+}
+
+.btn:hover {
+    background-color: rgb(54, 161, 32);
+}
+
+.create-page {
+    font-size: 14px;
+    text-align: center;
+}
+
+#strong:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: white;
+    position: relative;
+    height: 180px;
+    margin-bottom: -200px;
+    margin-top: 100px;
+}
+
+.footer-links {
+    padding: 0 140px 0 140px;
+}
+
+footer .first-links {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.bottom-line {
+    border: 1px solid lightgray;
+    margin-left: 40px;
+}
+
+.footer-links .second-links {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    color: gray;
+}
+
+ul li {
+    display: inline;
+    padding-right: 15px;
+    font-size: 12px;
+}
+
+.first-links li:not(:first-child):hover, .second-links li:hover {
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+
+
+
+
+
+
